@@ -1,6 +1,4 @@
-
-
-// Function for call the API
+// Function to call the API with XMLHttpRequest. 
 const fetchData = (url) => {
     return new Promise((resolve, reject) => {
         const xhttp = new XMLHttpRequest();
