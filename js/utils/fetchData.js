@@ -1,5 +1,5 @@
 // Function to call the API with XMLHttpRequest. 
-const fetchData = (url) => {
+export const fetchData = (url) => {
     return new Promise((resolve, reject) => {
         const xhttp = new XMLHttpRequest();
         xhttp.open('GET', url, true)
@@ -8,10 +8,11 @@ const fetchData = (url) => {
         if(xhttp.readyState === 4){
             // 200 because meaning that the response is 'OK'
             (xhttp.status === 200)
-                ? resolve(JSON.parse(responseText))
+                ? resolve(JSON.parse(xhttp.responseText))
                 : reject(new Error('Error' + url))
             } 
         }
         xhttp.send();
     })
 };
+

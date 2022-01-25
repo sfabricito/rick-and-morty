@@ -1,5 +1,5 @@
 // This function generate the code html of the card with the information
-const generator = (object) => {
+export const generator = (object) => {
     const card = document.createElement('article');
     card.classList.add('card')
 
