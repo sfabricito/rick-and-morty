@@ -20,9 +20,7 @@ const printInformation = async () => {
         const data = await fetchData(`${API}?page=${countPage}`);
         if (data?.info?.next === null) return alert("No more characters");
         else{
-            console.log(countPage);
             countPage++;
-            console.log(countPage);
             data.results.map(character => {
                 const card = generator(character);
                 cardContent.appendChild(card);
