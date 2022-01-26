@@ -1,0 +1,50 @@
+/*
+1. Positioning
+2. Box model
+3. Typography
+4. Visuals
+5. Others
+*/
+
+/* Names of the styles
+
+font-family: 'Montserrat', sans-serif;
+700
+
+font-family: 'Noto Sans', sans-serif;
+200
+400
+*/
+
+:root{
+    background: #040314; 
+    background: #091F5D;
+    background: #15134A;
+    background: #4523C4;
+    background: #523B53;
+    background: #8C9695;
+    background: #C7A8D4;
+    background: #DA51B8;
+    background: #E3E0E3;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+main{
+    min-width: 288px;
+    width: 90%;
+    margin: auto;
+
+
+}

@@ -10,7 +10,7 @@ const cardContent = document.getElementById('main-cards');
 // Get the element 'main-btn' to html by the 'ID'
 let btn = document.getElementById("btn");
 // Save the lasted printed page of the API
-let countPage = 41;
+let countPage = 1;
 
 const printInformation = async () => {
     try{
