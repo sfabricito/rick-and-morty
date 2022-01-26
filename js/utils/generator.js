@@ -5,11 +5,11 @@ export const generator = (object) => {
 
     card.innerHTML = `
     <article class="cards">
-        <figure>
-            <span>${object?.status}</span>
-            <img src="${object?.image}" alt="Image of the character ${object?.name}">
-        </figure>
-        <div>
+        <div class="${object?.status}">
+            <span title="${object?.status}"></span>
+        </div>
+        <img src="${object?.image}" alt="Image of the character ${object?.name}">
+        <div class="info">
             <h3>${object?.name}</h3>
             <p>${object?.origin.name}</p>
         </div>

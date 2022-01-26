@@ -12,6 +12,9 @@ let btn = document.getElementById("btn");
 // Save the lasted printed page of the API
 let countPage = 1;
 
+
+
+// Combine the information of the module fetchData and generator
 const printInformation = async () => {
     try{
         const data = await fetchData(`${API}?page=${countPage}`);
@@ -31,8 +34,12 @@ const printInformation = async () => {
     }
 }
 
+
+// Call the API and print the information for first time
 printInformation();
 
+
+// When the button is clicked call the API and print more information
 function callFunction() {
     printInformation()
 

@@ -16,35 +16,244 @@ font-family: 'Noto Sans', sans-serif;
 400
 */
 
-:root{
-    background: #040314; 
-    background: #091F5D;
-    background: #15134A;
-    background: #4523C4;
-    background: #523B53;
-    background: #8C9695;
-    background: #C7A8D4;
-    background: #DA51B8;
-    background: #E3E0E3;
 
+
+
+/*Basic information*/
+:root {
+  --black: #040314;
+  --dark-blue: #05143d;
+  --soft-blue: #15134a;
+  --purple: #4523c4;
+  --vine: #523b53;
+  --gray: #8c9695;
+  --soft-pink: #c7a8d4;
+  --dark-pink: #da51b8;
+  --white: #e3e0e3;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+  font-size: 50%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
-main{
+body {
+  background: radial-gradient(
+    circle,
+    rgba(69, 35, 196, 1) 10%,
+    rgba(9, 31, 93, 1) 100%
+  );
+}
+
+
+/* Header section */
+
+header{
+    margin: 40px 0 40px 0;
+}
+
+.main_head {
+    padding-top: 20px;
+    margin-bottom: 40px;
+    height: auto;
+  
+    width: 90%;
+    margin: auto;
+  
+    border-radius: 25px;
+  
+    color: var(--white);
+  
+    background: url("../assets/img/wallpaper.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .main_head-info {
+      min-width: 288px;
+      width: 90%;
+      margin: auto;
+  }
+  
+  .main_head-info h2 {
+      margin: auto;
+      width: 90%;
+      font-size: 2.4rem;
+      font-family: "Noto Sans", sans-serif;
+  }
+  
+  .main_head-info p {
+      margin: auto;
+      width: 90%;
+      font-size: 1.5rem;
+  }
+  
+  .main_head-info .button {
+      width: 90%;
+      margin: auto;
+      padding-top: 10px;
+  }
+  
+  .logo_twitter span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../assets/icons/twitter.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .logo_github span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../assets/icons/github.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .main_head-pic {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background: url("../assets/img/rickandmorty.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* The main section */
+
+    main {
     min-width: 288px;
     width: 90%;
     margin: auto;
+    }
 
 
+
+    .main-cards {
+    margin: auto;
+    min-width: 288px;
+    width: 90%;
+    }
+    .cards {
+    position: relative;
+    margin: auto auto 20px auto;
+    padding: 20px 20px 20px 20px;
+    width: 240px;
+    min-width: 144px;
+
+    color: var(--white);
+    font-size: 1.5rem;
+
+    background: var(--dark-blue);
+    border-radius: 20px;
+    }
+
+.cards .Alive{
+    position: absolute;
+    left: 185px;
+    top: 25px;
+
+    width: 25px;
+    height: 25px;
+    background-color: #29CC41;
+    border-radius: 5px;
+
+}
+
+.cards .Alive span {
+    display: block;
+    margin: 2.5px 2.5px 2.5px 2.5px;
+    width: 20px;
+    height: 20px;
+    background: url("../assets/icons/heard.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards .Dead{
+    position: absolute;
+    left: 185px;
+    top: 25px;
+
+    width: 25px;
+    height: 25px;
+    background-color: #FB6158;
+    ;
+    border-radius: 5px;
+
+}
+
+.cards .Dead span {
+    display: block;
+    margin: 2.5px 2.5px 2.5px 2.5px;
+    width: 20px;
+    height: 20px;
+    background: url("../assets/icons/heard.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards .unknown{
+    position: absolute;
+    left: 185px;
+    top: 25px;
+
+    width: 25px;
+    height: 25px;
+    background-color: #a8a8a8;
+    ;
+    border-radius: 5px;
+
+}
+
+.cards .unknown span {
+    display: block;
+    margin: 2.5px 2.5px 2.5px 2.5px;
+    width: 20px;
+    height: 20px;
+    background: url("../assets/icons/heard.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.cards .info {
+  display: inline-block;
+}
+
+.main-btn{
+    margin: 20px 0 40px 0;
+}
+
+.main-btn button{
+    display: block;
+    margin: auto;
+
+    padding: 10px;
+    color: var(--white);
+    font-family: inherit;
+
+    background-color: var(--dark-blue);
+    border: none;
+    border-radius: 10px;
 }
