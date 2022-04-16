@@ -1,4 +1,10 @@
 /* Header section */
+.main_head-info {
+    width: 90%;
+    margin: auto;
+}
+
+
 .main_head-pic {
     width: 300px;
     height: 300px;

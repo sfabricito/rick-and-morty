@@ -9,7 +9,7 @@ module.exports = {
         filename: 'main.js'
     },
     resolve: {
-        extensions: ['.js'],
+        extensions: ['.js', '.svg'],
     },
     module: {
         rules: [
@@ -19,7 +19,8 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                 }
-            }
+            },
+
         ]
     },
     plugins: [
@@ -44,6 +45,10 @@ module.exports = {
                     {
                         from: './src/styles/desktop.css',
                         to: './styles'
+                    },
+                    {
+                        from: './src/assets',
+                        to: './assets',
                     }
 
                 ]
