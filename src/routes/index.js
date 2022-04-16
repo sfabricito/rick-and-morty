@@ -8,3 +8,12 @@ const routes = {
     '/:i': Character,
     '/Contact': 'Contact',
 }
+
+const router = async () =>{
+    const header = null || document.getElementById('header');
+    const content = null || document.getElementById('main-cards');
+
+    header.innerHTML = await Header();
+}
+
+export default router;
