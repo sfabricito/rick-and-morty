@@ -5,7 +5,7 @@ import Error404 from '../pages/Error404';
 
 const routes = {
     '/': Home,
-    '/:i': Character,
+    '/:id': Character,
     '/Contact': 'Contact',
 }
 
