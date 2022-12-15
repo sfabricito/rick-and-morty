@@ -1,0 +1,68 @@
+/* Header section */
+.logo_twitter span{
+    width: 60px;
+    height: 60px;
+}
+
+.logo_github span{
+    width: 60px;
+    height: 60px;
+}
+
+.main_head-pic {
+    width: 340px;
+    height: 340px;
+}
+
+.main_head-info h2 {
+    font-size: 3.8rem;
+}
+
+.main_head-info p {
+    font-size: 2.4rem;
+  }
+
+
+
+.Characters-container{
+margin: auto;
+width: auto;
+max-width: 580px;
+
+
+background-color: var(--dark-blue);
+border-radius: 20px;
+color: var(--white);
+}
+
+.Characters-card h2{
+font-size: 2.6rem;
+}
+
+.Characters-card h3{
+font-size: 2rem;
+
+}
+
+.Characters-card .img-container{
+width: 290px;
+}
+
+
+.Characters-card img{
+max-width: 290px;
+
+border-radius: 10px;
+}
+
+.Characters-card h3 span{
+font-size: 1.8rem;
+
+}
+
+.Card-text{
+margin: auto;
+padding: 12px 0px 18px 0px;
+width: 290px;
+
+}

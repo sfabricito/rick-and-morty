@@ -76,7 +76,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+  ls
   .main_head-info {
       min-width: 288px;
       width: 90%;
@@ -152,6 +152,7 @@ header{
     margin: auto auto 20px auto;
     padding: 20px 20px 20px 20px;
     width: 240px;
+    min-height: 318px;
     min-width: 144px;
 
     color: var(--white);
@@ -160,6 +161,13 @@ header{
     background: var(--dark-blue);
     border-radius: 20px;
     }
+  .cards h3 {
+    color: var(--white);
+  }
+
+  .cards p{
+    color: var(--white);
+  }
 
 .cards .Alive{
     position: absolute;
@@ -241,6 +249,7 @@ header{
   display: inline-block;
 }
 
+
 .main-btn{
     margin: 40px 0 40px 0;
 }
@@ -260,4 +269,53 @@ header{
     background-color: var(--dark-blue);
     border: none;
     border-radius: 10px;
+}
+
+.Characters-container{
+  margin: auto;
+  width: auto;
+  max-width: 380px;
+
+
+  background-color: var(--dark-blue);
+  border-radius: 20px;
+  color: var(--white);
+}
+
+.Characters-card h2{
+  padding: 12px 0px 12px 0px;
+  font-size: 2.1rem;
+
+  text-align: center;
+}
+
+.Characters-card h3{
+  padding: 8px 0px 8px 0px;
+
+  font-size: 1.8rem;
+
+}
+
+.Characters-card .img-container{
+  margin: auto;
+  width: 200px;
+}
+
+
+.Characters-card img{
+  max-width: 200px;
+
+  border-radius: 10px;
+}
+
+.Characters-card h3 span{
+  font-size: 1.6rem;
+
+}
+
+.Card-text{
+  margin: auto;
+  padding: 12px 0px 18px 0px;
+  width: 200px;
+
 }
