@@ -4,6 +4,7 @@ import getHash from "../utils/getHash";
 const Character = async () => {
     const id = getHash();
     const character = await getData(id);
+    history.pushState({page: 1}, "title 1", `${location.origin}/${location.search}`)
     const view = `
         <div class="Characters-container">
             <article class="Characters-card">
@@ -24,8 +25,12 @@ const Character = async () => {
                 </div>
             </article>
         </div>
-        <div class="main-btn">
-            <a href="/" title="Show more characters" id="btn">Back</a>
+        <div class="Character-back-btn">
+            <a class="Back-btn" href="${location.href}" title="" id="btn">
+                <div class="Back-btn-container">
+                    <span>Back</span>
+                </div>
+            </a>
         </div>
     `
     return view;

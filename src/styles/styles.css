@@ -33,7 +33,7 @@ font-family: 'Noto Sans', sans-serif;
 }
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -45,10 +45,10 @@ html {
 }
 
 body {
-  background: radial-gradient(
-    circle,
-    rgba(69, 35, 196, 1) 10%,
-    rgba(9, 31, 93, 1) 100%
+background: radial-gradient(
+  circle,
+  rgba(69, 35, 196, 1) 10%,
+  rgba(9, 31, 93, 1) 100%
   );
 }
 
@@ -56,188 +56,188 @@ body {
 /* Header section */
 
 header{
-    margin: 40px 0 40px 0;
+  margin: 40px 0 40px 0;
 }
 
 .main_head {
-    padding-top: 20px;
-    margin-bottom: 40px;
-    height: auto;
-  
-    width: 90%;
-    margin: auto;
-  
-    border-radius: 25px;
-  
-    color: var(--white);
-  
-    background: url("../assets/img/wallpaper.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  ls
-  .main_head-info {
-      min-width: 288px;
-      width: 90%;
-      margin: auto;
-  }
-  
-  .main_head-info h2 {
-      margin: auto;
-      width: 90%;
-      font-size: 2.8rem;
-      font-family: "Noto Sans", sans-serif;
-  }
-  
-  .main_head-info p {
-      margin: auto;
-      width: 90%;
-      font-size: 1.8rem;
-  }
-  
-  .main_head-info .button {
-      width: 90%;
-      margin: auto;
-      padding-top: 10px;
-  }
-  
-  .logo_twitter span {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background: url("../assets/icons/twitter.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .logo_github span {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background: url("../assets/icons/github.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .main_head-pic {
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    background: url("../assets/img/rickandmorty.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  padding-top: 30px;
+  margin-bottom: 40px;
+  height: auto;
 
-  /* The main section */
+  width: 90%;
+  margin: auto;
 
-    main {
-    min-width: 288px;
-    width: 90%;
-    margin: auto;
-    }
+  border-radius: 25px;
+
+  color: var(--white);
+
+  background: url("../assets/img/wallpaper.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main_head-info {
+  min-width: 288px;
+  width: 90%;
+  margin: auto;
+}
+
+.main_head-info h2 {
+  margin: auto;
+  width: 90%;
+  font-size: 3rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.main_head-info p {
+  margin: auto;
+  width: 90%;
+  font-size: 2rem;
+}
+
+.main_head-info .subtitle{
+  font-size: 1.8rem;
+}
+
+.main_head-info .button {
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.logo_twitter span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url("../assets/icons/twitter.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo_github span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url("../assets/icons/github.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main_head-pic {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background: url("../assets/img/rickandmorty.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Main section */
+
+main {
+  min-width: 288px;
+  width: 90%;
+  margin: auto;
+}
 
 
 
-    .main-cards {
-    margin: auto;
-    min-width: 288px;
-    width: 90%;
-    }
-    .cards {
-    position: relative;
-    margin: auto auto 20px auto;
-    padding: 20px 20px 20px 20px;
-    width: 240px;
-    min-height: 318px;
-    min-width: 144px;
+.main-cards {
+  margin: auto;
+  min-width: 288px;
+  width: 90%;
+}
+.cards {
+  position: relative;
+  margin: auto auto 20px auto;
+  padding: 20px 20px 20px 20px;
+  width: 240px;
+  min-height: 318px;
+  min-width: 144px;
 
-    color: var(--white);
-    font-size: 1.5rem;
+  color: var(--white);
+  font-size: 1.5rem;
 
-    background: var(--dark-blue);
-    border-radius: 20px;
-    }
+  background: var(--soft-blue);
+  border-radius: 20px;
+  }
   .cards h3 {
-    color: var(--white);
-  }
+  color: var(--white);
+}
 
-  .cards p{
-    color: var(--white);
-  }
+.cards p{
+  color: var(--white);
+}
 
 .cards .Alive{
-    position: absolute;
-    left: 185px;
-    top: 25px;
+  position: absolute;
+  left: 185px;
+  top: 25px;
 
-    width: 25px;
-    height: 25px;
-    background-color: #29CC41;
-    border-radius: 5px;
+  width: 25px;
+  height: 25px;
+  background-color: #29CC41;
+  border-radius: 5px;
 
 }
 
 .cards .Alive span {
-    display: block;
-    margin: 2.5px 2.5px 2.5px 2.5px;
-    width: 20px;
-    height: 20px;
-    background: url("../assets/icons/heard.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  display: block;
+  margin: 2.5px 2.5px 2.5px 2.5px;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/icons/heard.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cards .Dead{
-    position: absolute;
-    left: 185px;
-    top: 25px;
+  position: absolute;
+  left: 185px;
+  top: 25px;
 
-    width: 25px;
-    height: 25px;
-    background-color: #FB6158;
-    ;
-    border-radius: 5px;
-
+  width: 25px;
+  height: 25px;
+  background-color: #FB6158;
+  border-radius: 5px;
 }
 
 .cards .Dead span {
-    display: block;
-    margin: 2.5px 2.5px 2.5px 2.5px;
-    width: 20px;
-    height: 20px;
-    background: url("../assets/icons/heard.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  display: block;
+  margin: 2.5px 2.5px 2.5px 2.5px;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/icons/heard.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cards .unknown{
-    position: absolute;
-    left: 185px;
-    top: 25px;
+  position: absolute;
+  left: 185px;
+  top: 25px;
 
-    width: 25px;
-    height: 25px;
-    background-color: #a8a8a8;
-    ;
-    border-radius: 5px;
-
+  width: 25px;
+  height: 25px;
+  background-color: #a8a8a8;
+  border-radius: 5px;
 }
 
 .cards .unknown span {
-    display: block;
-    margin: 2.5px 2.5px 2.5px 2.5px;
-    width: 20px;
-    height: 20px;
-    background: url("../assets/icons/heard.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  display: block;
+  margin: 2.5px 2.5px 2.5px 2.5px;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/icons/heard.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cards img {
@@ -251,24 +251,24 @@ header{
 
 
 .main-btn{
-    margin: 40px 0 40px 0;
+  margin: 40px 0 40px 0;
 }
 
 .main-btn button{
-    display: block;
-    margin: auto;
-    padding: 10px;
+  display: block;
+  margin: auto;
+  padding: 10px;
 
-    width: 200px;
-    height: 60px;
+  width: 200px;
+  height: 60px;
 
-    color: var(--white);
-    font-family: inherit;
-    font-size: 2rem;
+  color: var(--white);
+  font-family: inherit;
+  font-size: 2rem;
 
-    background-color: var(--dark-blue);
-    border: none;
-    border-radius: 10px;
+  background-color: var(--soft-blue);
+  border: none;
+  border-radius: 10px;
 }
 
 .Characters-container{
@@ -277,7 +277,7 @@ header{
   max-width: 380px;
 
 
-  background-color: var(--dark-blue);
+  background-color: var(--soft-blue);
   border-radius: 20px;
   color: var(--white);
 }
@@ -293,7 +293,6 @@ header{
   padding: 8px 0px 8px 0px;
 
   font-size: 1.8rem;
-
 }
 
 .Characters-card .img-container{
@@ -317,5 +316,76 @@ header{
   margin: auto;
   padding: 12px 0px 18px 0px;
   width: 200px;
+}
 
+.Character-back-btn{
+  min-width: 288px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.Back-btn{
+  display: flex;
+  justify-content: center;
+
+  text-decoration: none;
+  font-size: 2.1rem;
+}
+
+.Back-btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 60px;
+
+  color: var(--white);
+  background-color: var(--soft-blue);
+  border-radius: 8px;
+}
+
+/* Footer section */
+
+.footer{
+  min-width: 288px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.footer-buttons{
+  display: grid;
+  justify-content: center;
+  column-gap: 8px;
+  grid-template-columns: auto auto auto auto auto;
+
+  text-align: center;
+}
+
+.footer-buttons .locked{
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.footer-buttons .footer-btn{
+  display: inline-block;
+
+  font-size: 2.8rem;
+  text-decoration: none;
+}
+
+.footer-btn .selected{
+  border: var(--white) 2px solid;
+}
+
+.footer-btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+
+  color: var(--white);
+  background-color: var(--soft-blue);
+  border-radius: 8px;
 }
