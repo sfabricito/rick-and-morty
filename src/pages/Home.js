@@ -1,12 +1,15 @@
+import ButtonsPagination from "../templates/ButtonsPagination/ButtonsPagination";
+
+import getQuerySelector from "../utils/getQueryString";
 import getData from "../utils/getData";
 
 const Home = async () => {
-    const characters = await getData();
-    console.log(characters)
+    const data = await getData(null, getQuerySelector());
+    const footer = null || document.getElementById('footer');
 
     const view = `
     <section id="main-cards" class="main-cards">
-        ${characters.results.map( character => `
+        ${data.results.map( character => `
         <article class="cards">
             <a href="#/${character.id}" class="card-link">
                 <div class="Status">
@@ -22,10 +25,11 @@ const Home = async () => {
         `
         ).join('')}
     </section>
-    <div class="main-btn">
-        <button title="Show more characters" id="btn">Show more</button>
+    <div class="footer">
+        ${ButtonsPagination(data.info)}
     </div>
-    `
+    `;
+
     return view;
 }
 

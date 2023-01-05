@@ -1,8 +1,8 @@
-const API = 'https://rickandmortyapi.com/api/character';
+import { API } from "../../env";
 
-const getData = async (id) => {
-    const apiURL = id ? `${API}/${id}` : API;
-
+const getData = async (id, page) => {
+    const apiURL = id ? `${API}/${id}` : `${API}?page=${page}`;
+    console.log(API);
     try {
         const response = await fetch(apiURL);
         const data = await response.json();
