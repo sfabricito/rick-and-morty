@@ -4,7 +4,7 @@ import getHash from "../utils/getHash";
 const Character = async () => {
     const id = getHash();
     const character = await getData(id);
-    history.pushState({page: 1}, "title 1", `${location.origin}/${location.search}`)
+    history.pushState({page: 1}, "title 1", `${location.origin}${location.pathname}${location.search}`)
     const view = `
         <div class="Characters-container">
             <article class="Characters-card">
