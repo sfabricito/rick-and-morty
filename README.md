@@ -9,6 +9,10 @@ I started this project with the goal of practice and improve my skills on the ba
 ```
 $ git clone git@github.com:sfabricito/rick-and-morty
 ```
+### Move inside the project
+```
+$ cd rick-and-morty
+```
 
 ### Install the requirement dependencies
 ```
