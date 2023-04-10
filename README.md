@@ -1,25 +1,29 @@
-# [Rick and Morty Characters](https://sfabricito.github.io/rick-and-morty/)
+# Rick and Morty Characters
 
-This project is a Single Page Application made with HTML, CSS and JavaScript Vanilla.
+You can see all the characters of Rick and Morty with a Single Page Application made with HTML, CSS and JavaScript Vanilla.
 I started this project with the goal of practice and improve my skills on the basics of web development.
 
-## Download the project
+Link: [Rick and Morty](sfabricito.github.io/rick-and-morty/).
+
+You can follow me on [Twitter](https://twitter.com/sfabricito) where I'm creating a programming portfolio.
+
+## Download and execute the project
 
 ### Clone the repository
+```ssh
+git clone git@github.com:sfabricito/rick-and-morty
 ```
-$ git clone git@github.com:sfabricito/rick-and-morty
-```
-### Move inside the project
-```
-$ cd rick-and-morty
-```
-
-### Install the requirement dependencies
-```
-$ npm install
+### Move to the project directory
+```ssh
+cd rick-and-morty
 ```
 
-### Start the serve
+### Install requirement dependencies
+```ssh
+npm install
 ```
-$ npm run start
+
+### Start serve
+```ssh
+npm run start
 ```
